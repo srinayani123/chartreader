@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+venv/
+env/
+.venv/
+
+# Env — CONTAINS SECRETS
+.env
+.env.local
+.env.*.local
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Cached data — local only
+data/
+eval/test_set/news_cache/*.json
+!eval/test_set/news_cache/.gitkeep
+
+# Test set images — keep these versioned for reproducibility
+# (eval/test_set/charts/ IS committed)
+
+# Vector store cache
+.pgdata/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Build artifacts
+*.zip

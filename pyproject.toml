@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "chartreader"
+version = "0.1.0"
+description = "Multimodal chart-grounded financial Q&A agent built on Pydantic AI, exposed via MCP."
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "MIT"}
+authors = [
+    {name = "Srinayani Mankali"},
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["src*", "mcp_server*", "eval*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]
+asyncio_mode = "auto"
+filterwarnings = [
+    "ignore::DeprecationWarning:pkg_resources",
+]
