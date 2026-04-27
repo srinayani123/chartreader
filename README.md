@@ -4,9 +4,9 @@
 
 
 
-```
+
 ![alt text](image-1.png)
-```
+
 
 ---
 
@@ -39,9 +39,8 @@ Three real-world tests on Yahoo Finance screenshots, captured April 27, 2026.
 
 ### 1. Plain-language explanation of a 1-year stock chart
 
-```
 ![alt text](image-2.png)
-```
+
 
 > *"Apple (AAPL) gained 26.74% over the past year, climbing from around $210 in May 2025 to $266.33 by late April 2026. [...] Analyst targets were raised late in 2025 — Citi to $330, Wedbush to $350, Evercore ISI to $325 — citing the iPhone 17 cycle and a revamped Siri expected to ship in 2026 [...] By late 2025, Apple's market cap was approaching $4 trillion against a P/E of roughly 30. As one analyst put it: when you pay 30 times earnings, the margin for disappointment is thin."*
 
